@@ -96,8 +96,10 @@ nav {display:none}
 .intro__img {
     box-shadow: var(--bs);
     /* This will get rid of the annoying white space in the picture */
-    height: 245px;
+    width: 245px;
+    height: 235px;
     object-fit: cover;
+    object-position: top;
 }
 @media (min-width: 600px) {
     .intro {
